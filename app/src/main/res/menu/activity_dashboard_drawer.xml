@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_findanurse"
+            android:icon="@drawable/findnurse"
+            android:title="Find A Nurse" />
+        <item
+            android:id="@+id/nav_sendrequest"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Send Request" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/statz"
+            android:title="Statistics" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/maps"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/health"
+            android:title="Moniter Health" />
+
+    </group>
+
+    <item android:title="Nurse Activities">
+        <menu>
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_medicalreq"
+                android:icon="@drawable/taxi_schedule_icon"
+                android:title="Capture  Medical Report" />
+        </menu>
+    </item>
+
+</menu>
